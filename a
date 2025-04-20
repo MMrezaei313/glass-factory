@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>حالت آفلاین | سیستم مدیریت کوره‌های شیشه</title>
+  <style>
+    body {
+      font-family: 'Vazir', sans-serif;
+      background: #f5f5f5;
+      color: #333;
+      text-align: center;
+      padding: 20px;
+      line-height: 1.6;
+    }
+    .offline-container {
+      max-width: 500px;
+      margin: 50px auto;
+      padding: 30px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+      color: #e53935;
+    }
+    button {
+      background: #42b983;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="offline-container">
+    <h1>اتصال اینترنت قطع است!</h1>
+    <p>شما در حال حاضر به اینترنت متصل نیستید. برخی امکانات سیستم ممکن است محدود باشند.</p>
+    <p>تغییراتی که ایجاد می‌کنید به صورت موقت ذخیره شده و پس از اتصال مجدد، همگام‌سازی خواهند شد.</p>
+    <button onclick="window.location.reload()">تلاش مجدد</button>
+  </div>
+</body>
+</html>
